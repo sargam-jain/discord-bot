@@ -13,7 +13,7 @@ client.on("messageCreate",(message) => {
         content:"Hi from baat",
     })
 });
-client.login("MTQ1MDM4MjY4NjAxODM0MjkyOA.GPuerz.bQdzA8z49S2Hw22T2j85lo3g7Yqggk3wC1F7XU");
+client.login("YOUR CLIENT ID");
 
 client.on(Events.InteractionCreate,async interaction => {
     if(!interaction.isChatInputCommand()) return;
@@ -24,3 +24,4 @@ client.on(Events.InteractionCreate,async interaction => {
     }
 
 })
+
