@@ -19,7 +19,8 @@ client.on(Events.InteractionCreate,async interaction => {
     if(!interaction.isChatInputCommand()) return;
     if(interaction.commandName === "ping"){
         await interaction.reply("Pong");
-    }else if(interaction.commandName === "chutke"){
-        await interaction.reply("tera baap chutka");
+    }else if(interaction.commandName === "wassup"){
+        await interaction.reply("yoo");
     }
+
 })
